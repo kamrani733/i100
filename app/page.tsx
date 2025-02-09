@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -111,12 +112,20 @@ export default function Home() {
 
         {/* Right Column (Canvas Visualization) */}
         <div className="relative flex w-full max-h-[500px] md:w-1/2">
-           
+        <Image
+            alt="Copilot: AI Chat for Designer Bio"
+            src="/assets/image/AI-Genetic-Analysis.png"
+            width={522.5}
+            height={281.66}
+            priority
+            className="w-full rounded-lg"
+          />
          </div>
       </div>
 
       {/* New Section */}
-      <section className="container grid grid-cols-1 items-center gap-10 py-16 md:grid-cols-2 md:gap-y-20">
+      <div className="bg-[#101114]">
+      <section className="container   mt-10 grid grid-cols-1 items-center gap-10 py-16 md:grid-cols-2 md:gap-y-20">
         {/* Left Column (Molecule Programming) */}
         <div className="flex flex-col items-start">
           <h2 className="max-w-md font-secondary text-2xl font-medium md:text-4xl">
@@ -284,6 +293,7 @@ export default function Home() {
           </nav>
         </div>
       </footer>
+      </div>
     </>
   );
 }
