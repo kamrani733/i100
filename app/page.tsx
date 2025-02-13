@@ -276,8 +276,8 @@ export default function Home() {
                   <a href="#" aria-label="LinkedIn">
                     <Image
                       className=" fill-gray-500"
-                      alt="linkedin"
-                      src="/assets/image/svg/linkedin.svg"
+                      alt="discord"
+                      src="/assets/image/svg/discord.svg"
                       width={26}
                       height={26}
                       priority
@@ -288,16 +288,13 @@ export default function Home() {
                   <a href="#" aria-label="YouTube">
                     <Image
                       className=" fill-gray-500"
-                      alt="youtube"
-                      src="/assets/image/svg/youtube.svg"
-                      width={33}
-                      height={33}
+                      alt="telegram"
+                      src="/assets/image/svg/telegram.svg"
+                      width={23}
+                      height={23}
                       priority
                     />
                   </a>
-                </li>
-                <li>
-                  <a href="#" aria-label="Instagram"></a>
                 </li>
                 <li>
                   <a href="#" aria-label="X (formerly Twitter)">
@@ -305,8 +302,8 @@ export default function Home() {
                       className=" fill-gray-500"
                       alt="twitter"
                       src="/assets/image/svg/twitter.svg"
-                      width={30}
-                      height={30}
+                      width={26}
+                      height={26}
                       priority
                     />
                   </a>
@@ -317,8 +314,8 @@ export default function Home() {
                       className=" fill-gray-500"
                       alt="instagram"
                       src="/assets/image/svg/instagram.svg"
-                      width={30}
-                      height={30}
+                      width={26}
+                      height={26}
                       priority
                     />
                   </a>
