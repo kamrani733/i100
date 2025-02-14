@@ -15,7 +15,7 @@ export default function Navabr() {
             <a
               className="block w-full px-4 py-2 font-medium text-white transition-colors hover:bg-gray-800 hover:text-gray-300 md:px-3 md:py-4 md:hover:bg-transparent"
               aria-label="AI"
-              href="/copilet-services"
+              href="/copilot"
             >
               Copilet
             </a>
@@ -34,20 +34,12 @@ export default function Navabr() {
             <a
               className="block w-full px-4 py-2 font-medium text-white transition-colors hover:bg-gray-800 hover:text-gray-300 md:px-3 md:py-4 md:hover:bg-transparent"
               aria-label="Blog"
-              href="/blog"
+              href="/whitepaper "
             >
-              Blog
+              Whitepaper 
             </a>
           </li>
-          <li className="w-full text-center border-b border-b-muted md:border-b-0 md:text-left">
-            <a
-              className="block w-full px-4 py-2 font-medium text-white transition-colors hover:bg-gray-800 hover:text-gray-300 md:px-3 md:py-4 md:hover:bg-transparent"
-              aria-label="Careers"
-              href="/careers"
-            >
-              Careers
-            </a>
-          </li>
+     
           <li className="w-full text-center md:text-left">
             <a
               className="block w-full whitespace-nowrap px-4 py-2 font-medium text-white transition-colors hover:bg-gray-800 hover:text-gray-300 md:px-3 md:py-4 md:hover:bg-transparent"
