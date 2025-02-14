@@ -11,7 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        muted:"#212326"
+        muted:"#212326",
+        destructive:"#CD3232",
       },
     },
   },
