@@ -2,7 +2,7 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Image from "next/image";
 
-export default function AboutUs() {
+export default function copilot() {
   return (
     <>
       <Navbar />
@@ -40,7 +40,7 @@ export default function AboutUs() {
       </div>
       <section className="bg-white py-16 text-black">
         <div className="container">
-          <h2 className="mb-8 font-secondary text-4xl font-medium">Services</h2>
+          <h2 className="mb-8 font-secondary text-4xl font-medium">Key Services of i100 Copilot:</h2>
         </div>
         <div className="container grid grid-cols-1 gap-6 md:grid-cols-2">
           <a
@@ -48,11 +48,10 @@ export default function AboutUs() {
             className="flex items-center rounded-xl bg-[#F4F4F4] p-6"
           >
             <div className="flex flex-col gap-y-3">
-              <h3 className="text-xl font-medium">Protein Folding</h3>
+              <h3 className="text-xl font-medium">Personalized Medication Guidance</h3>
               <p className="line-clamp-3 text-sm">
-                Protein structure prediction is the process by which linear
-                chains of amino acids and predicting its three-dimensional
-                structures.
+              Get AI-driven insights on the best treatment options based on your genetic and biochemical data.
+
               </p>
             </div>
           </a>
@@ -61,10 +60,10 @@ export default function AboutUs() {
             className="flex items-center rounded-xl bg-[#F4F4F4] p-6"
           >
             <div className="flex flex-col gap-y-3">
-              <h3 className="text-xl font-medium">Function Prediction</h3>
+              <h3 className="text-xl font-medium">Real-Time Health Monitoring</h3>
               <p className="line-clamp-3 text-sm">
-                Protein Function Prediction involves analyzing the amino acid
-                sequence of a protein to determine its biological roles
+              Track vital health parameters through integrations with wearables and smart health devices.
+
               </p>
             </div>
           </a>
@@ -73,11 +72,9 @@ export default function AboutUs() {
             className="flex items-center rounded-xl bg-[#F4F4F4] p-6"
           >
             <div className="flex flex-col gap-y-3">
-              <h3 className="text-xl font-medium">Molecular Visualization</h3>
+              <h3 className="text-xl font-medium">Symptom Analysis & Recommendations</h3>
               <p className="line-clamp-3 text-sm">
-                Molecular visualization is the process of creating graphical
-                representations of molecular structures to understand their 3D
-                shapes and interactions
+              AI evaluates your symptoms and provides suggestions for medical consultations or home care.
               </p>
             </div>
           </a>
@@ -86,10 +83,10 @@ export default function AboutUs() {
             className="flex items-center rounded-xl bg-[#F4F4F4] p-6"
           >
             <div className="flex flex-col gap-y-3">
-              <h3 className="text-xl font-medium">Protein Design</h3>
+              <h3 className="text-xl font-medium">DNA & Biomarker Insights</h3>
               <p className="line-clamp-3 text-sm">
-                Protein Function Prediction involves analyzing the amino acid
-                sequence of a protein to determine its biological roles
+              Receive detailed reports on how your genetic profile affects drug efficacy and potential side effects.
+
               </p>
             </div>
           </a>
@@ -98,10 +95,10 @@ export default function AboutUs() {
             className="flex items-center rounded-xl bg-[#F4F4F4] p-6"
           >
             <div className="flex flex-col gap-y-3">
-              <h3 className="text-xl font-medium">Molecular Docking</h3>
+              <h3 className="text-xl font-medium">Medication Interaction Check</h3>
               <p className="line-clamp-3 text-sm">
-                Molecular docking predicts how molecular structures, such as
-                proteins and ligands, interact to form stable complexes
+              Ensure safe medication usage by detecting potential adverse interactions between prescriptions.
+
               </p>
             </div>
           </a>
@@ -110,10 +107,10 @@ export default function AboutUs() {
             className="flex items-center rounded-xl bg-[#F4F4F4] p-6"
           >
             <div className="flex flex-col gap-y-3">
-              <h3 className="text-xl font-medium">Biological Database</h3>
+              <h3 className="text-xl font-medium">Telehealth & Expert Consultation</h3>
               <p className="line-clamp-3 text-sm">
-                Many public databases are available with information on
-                proteins, small molecules, RNA, cells, and more...
+              Connect with medical professionals for in-depth discussions and AI-assisted health planning.
+
               </p>
             </div>
           </a>
