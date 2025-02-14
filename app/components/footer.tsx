@@ -19,7 +19,7 @@ export default function Footer() {
             Join us…
           </p>
         </div>
-        <img alt="germany" src="/germany.png" className="w-[230px] h-[110px]" />
+        <img alt="germany" src="/germany.png" className="w-[130px] h-[75px]" />
       </div>
       <div className="container mt-10 flex h-full flex-col items-center justify-between gap-y-5 py-5 md:flex-row md:py-0">
         <p className="text-muted-foreground">
