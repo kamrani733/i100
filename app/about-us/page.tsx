@@ -44,7 +44,7 @@ export default function AboutUs() {
               />
               <div className="flex flex-col items-start">
                 <h3 className="font-secondary text-lg font-semibold leading-tight text-white">
-                  Koosh Azimian
+                  Abbas Mohammadi
                   <br />
                   CEO & Founder
                 </h3>
@@ -64,6 +64,132 @@ export default function AboutUs() {
               joined Facebook, where he served as the TechLead for Ads Ranking.
             </p>
           </article>
+
+
+          <article className="flex flex-col items-start gap-y-6 rounded-xl bg-muted p-6">
+            <header className="flex items-center justify-start gap-x-4">
+              <img
+                alt="Koosh Azimian"
+                loading="lazy"
+                width="150"
+                height="150"
+                decoding="async"
+                className="overflow-hidden rounded-full"
+                src="/assets/image/koosh.png"
+                style={{ color: "transparent" }}
+              />
+              <div className="flex flex-col items-start">
+                <h3 className="font-secondary text-lg font-semibold leading-tight text-white">
+                  Abbas Mohammadi
+                  <br />
+                  CEO & Founder
+                </h3>
+                <div className="mt-2 flex items-center justify-start gap-x-2">
+                  Social
+                </div>
+              </div>
+            </header>
+            <p className="text-sm leading-relaxed text-foreground">
+              Koosh is a serial entrepreneur and former Staff AI Engineer at
+              Facebook. At the age of 20, he achieved an Erdos number of 2 for
+              his research in cryptography and the foundations of computer
+              science. In 2012, he founded Concertboom, which quickly rose to
+              become one of the top five highest traffic search engines for
+              event tickets. In 2018, he developed Kookoo.ai, an innovative AI
+              engine designed to create abstract paintings. By 2019, Koosh
+              joined Facebook, where he served as the TechLead for Ads Ranking.
+            </p>
+          </article>
+
+
+          <article className="flex flex-col items-start gap-y-6 rounded-xl bg-muted p-6">
+            <header className="flex items-center justify-start gap-x-4">
+              <img
+                alt="Koosh Azimian"
+                loading="lazy"
+                width="150"
+                height="150"
+                decoding="async"
+                className="overflow-hidden rounded-full"
+                src="/assets/image/koosh.png"
+                style={{ color: "transparent" }}
+              />
+              <div className="flex flex-col items-start">
+                <h3 className="font-secondary text-lg font-semibold leading-tight text-white">
+                  Abbas Mohammadi
+                  <br />
+                  CEO & Founder
+                </h3>
+                <div className="mt-2 flex items-center justify-start gap-x-2">
+                  Social
+                </div>
+              </div>
+            </header>
+            <p className="text-sm leading-relaxed text-foreground">
+              Koosh is a serial entrepreneur and former Staff AI Engineer at
+              Koosh is a serial entrepreneur and former Staff AI Engineer at
+            </p>
+          </article>
+
+          <article className="flex flex-col items-start gap-y-6 rounded-xl bg-muted p-6">
+            <header className="flex items-center justify-start gap-x-4">
+              <img
+                alt="Koosh Azimian"
+                loading="lazy"
+                width="150"
+                height="150"
+                decoding="async"
+                className="overflow-hidden rounded-full"
+                src="/assets/image/koosh.png"
+                style={{ color: "transparent" }}
+              />
+              <div className="flex flex-col items-start">
+                <h3 className="font-secondary text-lg font-semibold leading-tight text-white">
+                  Abbas Mohammadi
+                  <br />
+                  CEO & Founder
+                </h3>
+                <div className="mt-2 flex items-center justify-start gap-x-2">
+                  Social
+                </div>
+              </div>
+            </header>
+            <p className="text-sm leading-relaxed text-foreground">
+              Koosh is a serial entrepreneur and former Staff AI Engineer at
+              Koosh is a serial entrepreneur and former Staff AI Engineer at
+            </p>
+          </article>
+
+
+          <article className="flex flex-col items-start gap-y-6 rounded-xl bg-muted p-6">
+            <header className="flex items-center justify-start gap-x-4">
+              <img
+                alt="Koosh Azimian"
+                loading="lazy"
+                width="150"
+                height="150"
+                decoding="async"
+                className="overflow-hidden rounded-full"
+                src="/assets/image/koosh.png"
+                style={{ color: "transparent" }}
+              />
+              <div className="flex flex-col items-start">
+                <h3 className="font-secondary text-lg font-semibold leading-tight text-white">
+                  Abbas Mohammadi
+                  <br />
+                  CEO & Founder
+                </h3>
+                <div className="mt-2 flex items-center justify-start gap-x-2">
+                  Social
+                </div>
+              </div>
+            </header>
+            <p className="text-sm leading-relaxed text-foreground">
+              Koosh is a serial entrepreneur and former Staff AI Engineer at
+              Koosh is a serial entrepreneur and former Staff AI Engineer at
+            </p>
+          </article>
+
 
           <article className="flex flex-col items-start gap-y-6 rounded-xl bg-muted p-6">
             <header className="flex items-center justify-start gap-x-4">
@@ -91,15 +217,11 @@ export default function AboutUs() {
             <p className="text-sm leading-relaxed text-foreground">
               Stanford Ph.D. and postdoc training in computational protein
               design with David Baker. At Amgen, she applied structure
-              prediction, loop/linker modeling, stabilization, affinity
-              modulation, and more to support immunology, cancer, and
-              cardiometabolic therapeutic areas. She also built an
-              interdepartmental group to launch the AmgenFold platform. Multiple
-              patent holder and published in Science, PNAS, and Elife.
             </p>
           </article>
         </div>
       </section>
+
       <section className="container flex flex-col items-center justify-start gap-x-16 gap-y-10 pb-10 pt-4 md:flex-row md:py-20">
         <h2 className="font-secondary text-3xl font-semibold text-muted-foreground">
           Investors
