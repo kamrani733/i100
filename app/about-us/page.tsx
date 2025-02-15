@@ -44,7 +44,7 @@ export default function AboutUs() {
               />
               <div className="flex flex-col items-start">
                 <h3 className="font-secondary text-lg font-semibold leading-tight text-white">
-                  Koosh Azimian
+                  Abbas Mohammadi
                   <br />
                   CEO & Founder
                 </h3>
