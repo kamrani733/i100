@@ -40,13 +40,13 @@ export default function Whitepaper() {
   const handleScrollToSection = (id: string) => {
     document
       .getElementById(id)
-      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+      ?.scrollIntoView({ behavior: "smooth"});
   };
 
   return (
     <>
       <Navbar />
-      <div className="flex pt-20 min-h-screen bg-gray-100">
+      <div className="flex pt-28 min-h-screen bg-gray-100">
         {/* Sidebar */}
         <div className="w-1/5">
           <aside className=" bg-muted text-white p-6 border-r shadow-md h-screen fixed top-16 left-0 bottom-16 overflow-x-auto">
@@ -65,12 +65,12 @@ export default function Whitepaper() {
           </aside>
         </div>
 
-        <main className="flex-1 w-4/5 ml-1/4 p-10 bg-white">
+        <main className="flex-1 w-4/5 ml-1/4 p-10 bg-[#F4F4F4]">
           <div
             id="purpose"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">Vision and Mission</h2>
+            <h2 className="text-2xl pt-20 font-bold">Purpose of the Token</h2>
             <p className="text-justify">
               1.1 Purpose of the Token The i100 Token (i100) serves as the core
               utility token within the i100 ecosystem, enabling users to access
@@ -86,9 +86,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="vision-mission"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">Vision</h2>
+            <h2 className="text-2xl font-bold pt-20">Vision</h2>
             <p className="text-justify">
               Our vision is to empower individuals to take control of their
               health through personalized, AI-driven insights and services. We
@@ -113,9 +113,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="overview"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">Overview of the Project</h2>
+            <h2 className="text-2xl pt-20 font-bold">Overview of the Project</h2>
             <p className="text-justify">
               i100 Copilot is a revolutionary AI-powered personal health
               assistant that combines cutting-edge artificial intelligence with
@@ -134,9 +134,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="market-opportunity"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Market Opportunity</h2>
+            <h2 className="text-2xl pt-20 font-bold"> Market Opportunity</h2>
             <p className="text-justify">
               The global healthcare industry is undergoing a transformation with
               the rise of AI technologies and the growing demand for
@@ -155,9 +155,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="problem-statement"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Problem Statement</h2>
+            <h2 className="text-2xl pt-20 font-bold"> Problem Statement</h2>
             <p className="text-justify">
               Traditional healthcare systems are often reactive rather than
               proactive, with limited personalization and accessibility.
@@ -175,9 +175,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="concept"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Project Concept</h2>
+            <h2 className="text-2xl pt-20 font-bold"> Project Concept</h2>
             <p className="text-justify">
               i100 Copilot is an innovative AI-driven platform designed to serve
               as a personalized health assistant for users, offering them
@@ -196,9 +196,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="key-features"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Key Features of the Token</h2>
+            <h2 className="text-2xl pt-20 font-bold"> Key Features of the Token</h2>
             <p className="text-justify">
               <div className="mt-4 font-semibold">
                 Access to Premium Services:
@@ -237,9 +237,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="competitive-advantages"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">Competitive Advantages </h2>
+            <h2 className="text-2xl pt-20 font-bold">Competitive Advantages </h2>
             <p className="text-justify">
               <div className="mt-4 font-semibold">
                 AI-Powered Personalization:
@@ -289,9 +289,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="utility"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Token Utility </h2>
+            <h2 className="text-2xl pt-20 font-bold"> Token Utility </h2>
             <p className="text-justify">
               The i100 Token serves as the primary utility token within the i100
               Copilot ecosystem, enabling users to access a variety of services
@@ -331,9 +331,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="supply-distribution"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-2xl pt-20 font-bold">
               Total Supply and Distribution
             </h2>
             <p className="text-justify">
@@ -346,9 +346,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="allocation-details"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Allocation Details </h2>
+            <h2 className="text-2xl pt-20 font-bold"> Allocation Details </h2>
             <p className="text-justify">
               <div className="mt-4 font-semibold"> Team (20%): </div>A portion
               of the tokens will be allocated to the i100 Copilot development
@@ -393,9 +393,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="release-schedule"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-2xl pt-20 font-bold">
               Token Release Schedule (Vesting and Lockup Periods)
             </h2>
             <p className="text-justify">
@@ -436,9 +436,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="platform"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Blockchain Platform </h2>
+            <h2 className="text-2xl pt-20 font-bold"> Blockchain Platform </h2>
             <p className="text-justify">
               The i100 Copilot ecosystem is built on a robust and scalable
               blockchain platform to ensure transparency, security, and
@@ -460,9 +460,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="smart-contract"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Smart Contract Details</h2>
+            <h2 className="text-2xl pt-20 font-bold"> Smart Contract Details</h2>
             <p className="text-justify">
               Smart contracts are a critical component of the i100 Copilot
               ecosystem, enabling automation, secure transactions, and access to
@@ -501,9 +501,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="security-audit"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-2xl pt-20 font-bold">
               Security and Audit Information
             </h2>
             <p className="text-justify">
@@ -561,10 +561,10 @@ export default function Whitepaper() {
           </div>
           <div
             id="use-cases"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">Use Cases and Ecosystem </h2>
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-2xl pt-20 font-bold">Use Cases and Ecosystem </h2>
+            <h2 className="text-2xl pt-20 font-bold">
               Real-World Applications of the Token
             </h2>
             <p className="text-justify">
@@ -619,9 +619,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="ecosystem-participants"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Ecosystem Participants </h2>
+            <h2 className="text-2xl pt-20 font-bold"> Ecosystem Participants </h2>
             <p className="text-justify">
               The i100 Copilot ecosystem includes various participants who
               contribute to the platform's growth, development, and success.
@@ -680,9 +680,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="partnerships"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-2xl pt-20 font-bold">
               Partnerships and Collaborations
             </h2>
             <p className="text-justify">
@@ -749,12 +749,12 @@ export default function Whitepaper() {
               offering even more innovative health solutions in the future.
             </p>
           </div>
-          <h2 className="text-2xl font-bold"> Roadmap</h2>
+          <h2 className="text-2xl pt-20 font-bold"> Roadmap</h2>
           <div
-            id="Short-Term"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            id="short-term"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Short-Term Milestones</h2>
+            <h2 className="text-2xl pt-20 font-bold"> Short-Term Milestones</h2>
 
             <p className="text-justify">
               The i100 Copilot project is committed to a structured and
@@ -795,9 +795,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="long-term"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Long-Term Vision</h2>
+            <h2 className="text-2xl pt-20 font-bold"> Long-Term Vision</h2>
             <p className="text-justify">
               The long-term vision for i100 Copilot is to become the leading
               AI-powered health assistant globally, providing personalized,
@@ -867,13 +867,13 @@ export default function Whitepaper() {
               healthcare experience for everyone.
             </p>
           </div>
-          <h2 className="text-2xl font-bold">Team and Advisors</h2>
+          <h2 className="text-2xl pt-20 font-bold">Team and Advisors</h2>
 
           <div
             id="core-team"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Core Team Members </h2>
+            <h2 className="text-2xl pt-20 font-bold"> Core Team Members </h2>
             <p className="text-justify">
               The i100 Copilot project is driven by a team of passionate and
               experienced professionals, each bringing unique expertise from the
@@ -938,9 +938,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="advisors"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Advisors and Partners </h2>
+            <h2 className="text-2xl pt-20 font-bold"> Advisors and Partners </h2>
             <p className="text-justify">
               <div className="mt-4 font-semibold"></div>
               To ensure the success of the i100 Copilot platform and to guide us
@@ -1012,9 +1012,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="funding"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Funding and ICO Details </h2>
+            <h2 className="text-2xl pt-20 font-bold"> Funding and ICO Details </h2>
             <p className="text-justify">
               <div className="mt-4 font-semibold"></div>
               9.1 Pre-Sale and Public Sale Details The i100 Copilot project will
@@ -1054,9 +1054,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="fund-allocation"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Fund Allocation </h2>
+            <h2 className="text-2xl pt-20 font-bold"> Fund Allocation </h2>
             <p className="text-justify">
               <div className="mt-4 font-semibold"></div>
               The funds raised through the ICO will be allocated across various
@@ -1112,9 +1112,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="legal-compliance"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-2xl pt-20 font-bold">
               {" "}
               Legal and Regulatory Compliance
             </h2>
@@ -1170,13 +1170,13 @@ export default function Whitepaper() {
             </p>
           </div>
 
-          <h2 className="text-2xl font-bold"> Market Strategy</h2>
+          <h2 className="text-2xl pt-20 font-bold"> Market Strategy</h2>
 
           <div
             id="marketing"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">Marketing and Growth Plans </h2>
+            <h2 className="text-2xl pt-20 font-bold">Marketing and Growth Plans </h2>
             <p className="text-justify">
               The i100 Copilot project will adopt a multi-faceted marketing
               strategy to drive awareness, attract users, and ensure long-term
@@ -1243,9 +1243,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="community"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-2xl pt-20 font-bold">
               {" "}
               Community Building and Engagement{" "}
             </h2>
@@ -1297,9 +1297,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="listing"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">Listing on Exchanges </h2>
+            <h2 className="text-2xl pt-20 font-bold">Listing on Exchanges </h2>
             <p className="text-justify">
               To ensure liquidity and accessibility of i100 Tokens, we will
               pursue listing on major cryptocurrency exchanges. Getting listed
@@ -1353,9 +1353,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="risk"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold">Potential Risks </h2>
+            <h2 className="text-2xl pt-20 font-bold">Potential Risks </h2>
             <p className="text-justify">
               While i100 Copilot aims to revolutionize healthcare through the
               integration of AI and blockchain technology, there are several
@@ -1493,9 +1493,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="Conclusion"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Conclusion</h2>
+            <h2 className="text-2xl pt-20 font-bold"> Conclusion</h2>
             <p className="text-justify">
               Summary of Key Points The i100 Copilot project is designed to
               revolutionize healthcare by combining the power of artificial
@@ -1553,9 +1553,9 @@ export default function Whitepaper() {
           </div>
           <div
             id="Appendices"
-            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+            className=" ml-10  text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
-            <h2 className="text-2xl font-bold"> Appendices</h2>
+            <h2 className="text-2xl pt-20 font-bold"> Appendices</h2>
             <p className="text-justify">
               Glossary of Terms
               <div className="mt-4 font-semibold"></div>AI (Artificial
