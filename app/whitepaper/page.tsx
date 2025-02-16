@@ -33,6 +33,7 @@ const sections = [
   { id: "listing", title: "10.3 Listing on Exchanges" },
   { id: "risk", title: "11 Risks and Mitigation" },
   { id: "Conclusion", title: "12 Conclusion" },
+  { id: "Appendices", title: "13 Appendices" },
 ];
 
 export default function Whitepaper() {
@@ -1495,23 +1496,170 @@ export default function Whitepaper() {
             className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
           >
             <h2 className="text-2xl font-bold"> Conclusion</h2>
-            <p className="text-justify">Summary of Key Points
-The i100 Copilot project is designed to revolutionize healthcare by combining the power of artificial intelligence with blockchain technology, creating a personalized, secure, and efficient health management ecosystem. With its cutting-edge services—ranging from AI-driven medication guidance and real-time health monitoring to symptom analysis and DNA insights—i100 Copilot offers users an intelligent companion for managing their health needs. By leveraging the i100 Token, users can access a wide range of services within the platform, from personalized treatment plans to expert consultations.
-Key points include:
-AI-Powered Health Assistance: i100 Copilot offers tailored healthcare solutions through AI algorithms that analyze user data, provide medication recommendations, track vital health metrics, and monitor medication interactions.
-Blockchain Integration: Using blockchain technology, i100 Copilot ensures data security, privacy, and transparency, while enabling efficient transactions within the ecosystem.
-Comprehensive Tokenomics: The i100 Token will fuel the platform’s ecosystem, offering utility for healthcare services, rewards, and participation in governance.
-Strategic Market Plans: Through robust marketing, partnerships, and exchange listings, we aim to foster growth, user adoption, and liquidity for the i100 Token.
-Risk Mitigation: Proactive risk management strategies have been outlined to tackle regulatory, technological, security, and market challenges, ensuring the project’s resilience and sustainability.
-With these core elements, i100 Copilot is poised to become a leading platform in the healthcare technology and blockchain space, empowering individuals to take control of their health through personalized, AI-driven insights.
-12.2 Call to Action for Investors
-We invite you to be part of the groundbreaking i100 Copilot ecosystem. As the healthcare industry continues to evolve, the i100 Copilot platform offers a unique opportunity to invest in the future of personalized health management. The potential for growth in both the health tech and blockchain industries is immense, and we are confident that i100 Copilot will be at the forefront of this transformation.
-Invest Early: The ICO, including the Pre-Sale and Public Sale, provides a chance to secure i100 Tokens at an attractive price, making it a promising investment opportunity for forward-thinking investors.
-Join the Community: By investing in i100 Copilot, you are not only supporting a revolutionary platform but also becoming part of a growing community of health-conscious individuals and tech enthusiasts. We encourage you to engage with the platform, contribute feedback, and become a part of the journey.
-Empower the Future of Health: With your investment, you will help us build a platform that empowers millions of people to make informed decisions about their health, access cutting-edge healthcare solutions, and ultimately improve their well-being.
-Don't miss out on the opportunity to be part of a game-changing project that combines healthcare and blockchain technology. Invest in i100 Copilot today, and join us on our mission to redefine personal health management for the future.
-Let’s build the future of healthcare together.
-</p>
+            <p className="text-justify">
+              Summary of Key Points The i100 Copilot project is designed to
+              revolutionize healthcare by combining the power of artificial
+              intelligence with blockchain technology, creating a personalized,
+              secure, and efficient health management ecosystem. With its
+              cutting-edge services—ranging from AI-driven medication guidance
+              and real-time health monitoring to symptom analysis and DNA
+              insights—i100 Copilot offers users an intelligent companion for
+              managing their health needs. By leveraging the i100 Token, users
+              can access a wide range of services within the platform, from
+              personalized treatment plans to expert consultations. Key points
+              include: AI-Powered Health Assistance: i100 Copilot offers
+              tailored healthcare solutions through AI algorithms that analyze
+              user data, provide medication recommendations, track vital health
+              metrics, and monitor medication interactions. Blockchain
+              Integration: Using blockchain technology, i100 Copilot ensures
+              data security, privacy, and transparency, while enabling efficient
+              transactions within the ecosystem. Comprehensive Tokenomics: The
+              i100 Token will fuel the platform’s ecosystem, offering utility
+              for healthcare services, rewards, and participation in governance.
+              Strategic Market Plans: Through robust marketing, partnerships,
+              and exchange listings, we aim to foster growth, user adoption, and
+              liquidity for the i100 Token. Risk Mitigation: Proactive risk
+              management strategies have been outlined to tackle regulatory,
+              technological, security, and market challenges, ensuring the
+              project’s resilience and sustainability. With these core elements,
+              i100 Copilot is poised to become a leading platform in the
+              healthcare technology and blockchain space, empowering individuals
+              to take control of their health through personalized, AI-driven
+              insights. 12.2 Call to Action for Investors We invite you to be
+              part of the groundbreaking i100 Copilot ecosystem. As the
+              healthcare industry continues to evolve, the i100 Copilot platform
+              offers a unique opportunity to invest in the future of
+              personalized health management. The potential for growth in both
+              the health tech and blockchain industries is immense, and we are
+              confident that i100 Copilot will be at the forefront of this
+              transformation. Invest Early: The ICO, including the Pre-Sale and
+              Public Sale, provides a chance to secure i100 Tokens at an
+              attractive price, making it a promising investment opportunity for
+              forward-thinking investors. Join the Community: By investing in
+              i100 Copilot, you are not only supporting a revolutionary platform
+              but also becoming part of a growing community of health-conscious
+              individuals and tech enthusiasts. We encourage you to engage with
+              the platform, contribute feedback, and become a part of the
+              journey. Empower the Future of Health: With your investment, you
+              will help us build a platform that empowers millions of people to
+              make informed decisions about their health, access cutting-edge
+              healthcare solutions, and ultimately improve their well-being.
+              Don't miss out on the opportunity to be part of a game-changing
+              project that combines healthcare and blockchain technology. Invest
+              in i100 Copilot today, and join us on our mission to redefine
+              personal health management for the future. Let’s build the future
+              of healthcare together.
+            </p>
+          </div>
+          <div
+            id="Appendices"
+            className="mt-8 p-6 ml-10 bg-[#F4F4F4] text-muted   rounded-lg transition transform hover:scale-[1.02]"
+          >
+            <h2 className="text-2xl font-bold"> Appendices</h2>
+            <p className="text-justify">
+              Glossary of Terms
+              <div className="mt-4 font-semibold"></div>AI (Artificial
+              Intelligence): The simulation of human intelligence processes by
+              machines, particularly in tasks such as learning, reasoning, and
+              problem-solving. In the case of i100 Copilot, AI helps analyze
+              health data to offer personalized recommendations.
+              <div className="mt-4 font-semibold"></div>Blockchain: A
+              decentralized, distributed ledger technology that records
+              transactions across many computers. Blockchain ensures
+              transparency, security, and immutability of data, which is
+              fundamental for managing health-related data in the i100 Copilot
+              ecosystem.
+              <div className="mt-4 font-semibold"></div>i100 Token: The native
+              utility token of the i100 Copilot platform. It powers
+              transactions, access to services, and rewards within the
+              ecosystem.
+              <div className="mt-4 font-semibold"></div>DAO (Decentralized
+              Autonomous Organization): A digital organization that is run by
+              code and governed by its community rather than a centralized
+              authority. i100 Copilot may implement a DAO for community-driven
+              decision-making in the future.
+              <div className="mt-4 font-semibold"></div>Vesting: A process where
+              tokens are gradually made available over time, typically used to
+              incentivize long-term commitment. i100 Copilot will employ vesting
+              schedules for team members, advisors, and investors.
+              <div className="mt-4 font-semibold"></div>Pre-Sale: The initial
+              phase of a token sale in which tokens are offered at a discounted
+              price to early investors. This phase is intended to raise funds
+              for the development of the project.
+              <div className="mt-4 font-semibold"></div>Tokenomics: The economic
+              model and distribution system for a token, including details about
+              its supply, demand, and utility within a given ecosystem.
+              <div className="mt-4 font-semibold"></div>Smart Contract: A
+              self-executing contract with the terms of the agreement directly
+              written into code. Smart contracts power many blockchain-based
+              applications, including token transactions and platform
+              functionalities for i100 Copilot.
+              <div className="mt-4 font-semibold"></div>KYC (Know Your
+              Customer): A process of verifying the identity of users or
+              investors, particularly in the context of token sales, to ensure
+              compliance with anti-money laundering (AML) regulations.
+              <div className="mt-4 font-semibold"></div>DeFi (Decentralized
+              Finance): A blockchain-based form of finance that operates without
+              traditional intermediaries like banks. DeFi includes services like
+              lending, borrowing, and trading, which may be integrated into the
+              i100 Copilot platform in the future.
+              <div className="mt-4 font-semibold"></div>Telehealth: The use of
+              digital communication tools to provide remote healthcare services,
+              including consultations with doctors or health experts, which will
+              be a key feature of i100 Copilot.
+              <div className="mt-4 font-semibold"></div>Wearables:
+              Health-tracking devices, such as smartwatches and fitness
+              trackers, that monitor vital health metrics and integrate with the
+              i100 Copilot platform for real-time health tracking.
+              <div className="mt-4 font-semibold"></div>13.2 References and
+              Resources
+              <div className="mt-4 font-semibold">AI in Healthcare:</div>
+              “Artificial Intelligence in Health Care: Anticipating Challenges
+              to Ethics, Privacy, and Workforce” – Journal of Health Economics
+              and Policy, 2021. “AI in Health Care: A Review” – National
+              Institutes of Health (NIH), 2020.
+              <div className="mt-4 font-semibold">
+                Blockchain for Healthcare:
+              </div>
+              “Blockchain Technology in Health Care: A Comprehensive Review and
+              Directions for Future Research” – Frontiers in Blockchain, 2021.
+              “Blockchain in Healthcare: Benefits, Challenges, and
+              Opportunities” – Healthcare Digital Transformation, 2020.
+              <div className="mt-4 font-semibold">i100 Copilot Whitepaper:</div>
+              i100 Copilot Official Whitepaper (Available on the i100 Copilot
+              website). Detailed documentation on i100 Copilot’s technical,
+              tokenomics, and ecosystem features.
+              <div className="mt-4 font-semibold">
+                Healthcare Data Security and Privacy:
+              </div>
+              "HIPAA Guidelines: Health Information Privacy" – U.S. Department
+              of Health & Human Services (HHS). “General Data Protection
+              Regulation (GDPR) for Healthcare” – European Commission.
+              <div className="mt-4 font-semibold">
+                Blockchain Security and Audits:
+              </div>
+              “Security Audits for Blockchain Systems: A Survey” – Journal of
+              Cryptographic Engineering, 2020. “Blockchain Security: A Survey” –
+              International Journal of Computer Applications, 2019.
+              <div className="mt-4 font-semibold">
+                Cryptocurrency Regulations:
+              </div>
+              “Regulating Blockchain in Healthcare: A Global Perspective” –
+              Blockchain Research Institute, 2022. “Cryptocurrency Regulation in
+              Europe: Current Trends and Future Outlook” – European Parliament,
+              2021.
+              <div className="mt-4 font-semibold">
+                Healthcare Industry Trends:
+              </div>
+              “The Future of Healthcare Technology: AI, Blockchain, and
+              Wearables” – Healthcare Innovation Magazine, 2022. “Blockchain and
+              AI in Healthcare: Bridging the Gap” – McKinsey & Company, 2021.
+              These references and resources provide essential insights into the
+              emerging fields of AI, blockchain, and digital health
+              technologies. The information supports i100 Copilot’s mission to
+              create an innovative, secure, and scalable health management
+              platform for users worldwide.
+            </p>
           </div>
         </main>
       </div>
