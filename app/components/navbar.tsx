@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navabr() {
   return (
-    <header className="z-30 h-16 font-secondary bg-black">
+    <header className="z-30 h-16 font-secondary fixed w-full  bg-black">
       <nav className="container relative flex w-full items-center">
         {/* Logo */}
         <a className="z-30 mr-4 flex h-16 items-center" href="/">

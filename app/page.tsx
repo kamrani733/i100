@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Navabr />
-      <div className="container mx-auto flex flex-col items-center justify-between py-10 md:flex-row">
+      <div className="container pt-20  mx-auto flex flex-col items-center justify-between py-10 md:flex-row">
         <div className="flex w-full flex-col items-center justify-start py-4 md:items-start md:w-1/2">
           <h1 className=" font-extrabold text-6xl">i100 + AI</h1>
           <h2 className="mt-6 font-secondary text-xl font-medium md:mt-3 lg:text-2xl">
