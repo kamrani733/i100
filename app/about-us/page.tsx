@@ -5,7 +5,7 @@ export default function AboutUs() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto flex flex-col items-center justify-between py-10 md:flex-row">
+      <div className="container pt-20 mx-auto flex flex-col items-center justify-between py-10 md:flex-row">
         <div className="flex w-full flex-col items-center justify-start py-4 md:items-start">
           <h1 className="font-extrabold text-6xl">About Us</h1>
           <p className="mt-10 text-gray-400 md:text-base">

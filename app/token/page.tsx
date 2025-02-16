@@ -6,7 +6,7 @@ export default function Token() {
   return (
     <>
       <Navbar />
-      <div className="container pt-20 flex flex-col mt-10">
+      <div className="container pt-20 flex flex-col  ">
           <h1 className=" font-extrabold text-6xl ">Why i100 Token?</h1>
           <ul className="mt-8 text-lg text-white  ">
             <li>
