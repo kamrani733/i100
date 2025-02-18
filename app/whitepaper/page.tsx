@@ -3,37 +3,37 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
 const sections = [
-  { id: "purpose", title: "1.1 Purpose of the Token" },
-  { id: "vision-mission", title: "1.2 Vision and Mission" },
-  { id: "overview", title: "2.1 Overview of the Project" },
-  { id: "market-opportunity", title: "2.2 Market Opportunity" },
-  { id: "problem-statement", title: "2.3 Problem Statement" },
-  { id: "concept", title: "3.1 Project Concept" },
-  { id: "key-features", title: "3.2 Key Features of the Token" },
-  { id: "competitive-advantages", title: "3.3 Competitive Advantages" },
-  { id: "utility", title: "4.1 Token Utility" },
-  { id: "supply-distribution", title: "4.2 Total Supply and Distribution" },
-  { id: "allocation-details", title: "4.3 Allocation Details" },
-  { id: "release-schedule", title: "4.4 Token Release Schedule" },
-  { id: "platform", title: "5.1 Blockchain Platform" },
-  { id: "smart-contract", title: "5.2 Smart Contract Details" },
-  { id: "security-audit", title: "5.3 Security and Audit Information" },
-  { id: "use-cases", title: "6.1 Real-World Applications of the Token" },
-  { id: "ecosystem-participants", title: "6.2 Ecosystem Participants" },
-  { id: "partnerships", title: "6.3 Partnerships and Collaborations" },
-  { id: "short-term", title: "7.1 Short-Term Milestones" },
-  { id: "long-term", title: "7.2 Long-Term Vision" },
-  { id: "core-team", title: "8.1 Core Team Members" },
-  { id: "advisors", title: "8.2 Advisors and Partners" },
-  { id: "funding", title: "9.1 Pre-Sale and Public Sale Details" },
-  { id: "fund-allocation", title: "9.2 Fund Allocation" },
-  { id: "legal-compliance", title: "9.3 Legal and Regulatory Compliance" },
-  { id: "marketing", title: "10.1 Marketing and Growth Plans" },
-  { id: "community", title: "10.2 Community Building and Engagement" },
-  { id: "listing", title: "10.3 Listing on Exchanges" },
-  { id: "risk", title: "11 Risks and Mitigation" },
-  { id: "Conclusion", title: "12 Conclusion" },
-  { id: "Appendices", title: "13 Appendices" },
+  { id: "purpose", title: "Purpose of the Token" },
+  { id: "vision-mission", title: "Vision and Mission" },
+  { id: "overview", title: "Overview" },
+  { id: "market-opportunity", title: "Market Opportunity" },
+  { id: "problem-statement", title: "Problem Statement" },
+  { id: "concept", title: "Project Concept" },
+  { id: "key-features", title: "Key Features of the Token" },
+  { id: "competitive-advantages", title: " Competitive Advantages" },
+  { id: "utility", title: " Token Utility" },
+  { id: "supply-distribution", title: "Total Supply and Distribution" },
+  { id: "allocation-details", title: "Allocation Details" },
+  { id: "release-schedule", title: "Token Release Schedule" },
+  { id: "platform", title: "Blockchain Platform" },
+  { id: "smart-contract", title: "Smart Contract Details" },
+  { id: "security-audit", title: "Security and Audit Information" },
+  { id: "use-cases", title: "Real-World Applications of the Token" },
+  { id: "ecosystem-participants", title: "Ecosystem Participants" },
+  { id: "partnerships", title: "Partnerships and Collaborations" },
+  { id: "short-term", title: "Short-Term Milestones" },
+  { id: "long-term", title: "Long-Term Vision" },
+  { id: "core-team", title: "Core Team Members" },
+  { id: "advisors", title: "Advisors and Partners" },
+  { id: "funding", title: "Pre-Sale and Public Sale Details" },
+  { id: "fund-allocation", title: "Fund Allocation" },
+  { id: "legal-compliance", title: "Legal and Regulatory Compliance" },
+  { id: "marketing", title: "Marketing and Growth Plans" },
+  { id: "community", title: "Community Building and Engagement" },
+  { id: "listing", title: "Listing on Exchanges" },
+  { id: "risk", title: "Risks and Mitigation" },
+  { id: "Conclusion", title: "Conclusion" },
+  { id: "Appendices", title: "Appendices" },
 ];
 
 export default function Whitepaper() {
@@ -44,16 +44,16 @@ export default function Whitepaper() {
   return (
     <>
       <Navbar />
-      <div className="flex pt-20 min-h-screen bg-gray-100">
+      <div className="flex flex-col md:flex-row pt-20 min-h-screen bg-gray-100">
         {/* Sidebar */}
-        <div className="w-1/5">
-          <aside className=" bg-muted text-white p-6 border-r shadow-md h-screen fixed top-16 left-0  overflow-x-auto">
-            <h2 className="text-xl font-semibold mb-4  ">📄 White Paper</h2>
+        <div className="w-full md:w-1/6 md:h-screen">
+          <aside className="bg-muted text-white p-4 py-5 border-r shadow-md fixed md:top-16 left-0 md:h-full w-full md:w-1/6 overflow-y-auto hidden md:block">
+            <h2 className="text-xl font-semibold mb-4">📄 White Paper</h2>
             <ul className="space-y-2">
               {sections.map((section) => (
                 <li
                   key={section.id}
-                  className="p-3 rounded-lg cursor-pointer hover:bg-gray-200 hover:text-gray-900 transition"
+                  className="p-2 rounded-lg text-xs cursor-pointer hover:bg-gray-200 hover:text-gray-900 transition"
                   onClick={() => handleScrollToSection(section.id)}
                 >
                   {section.title}
@@ -63,13 +63,13 @@ export default function Whitepaper() {
           </aside>
         </div>
 
-        <main className="flex-1 w-4/5 ml-1/4 bg-[#F4F4F4] pl-10">
-          <div
-            id="purpose"
-            className=" ml-10  text-muted  "
-          >
-            <h2 className="text-2xl pt-20 font-bold">Purpose of the Token</h2>
-            <p className="text-justify">
+        {/* Main Content */}
+        <main className="flex-1 w-full md:w-5/6 md:ml-auto px-5 bg-[#F4F4F4]">
+          <div id="purpose" className="text-muted">
+            <h2 className="text-2xl pt-10 md:pt-20 font-bold">
+              Purpose of the Token
+            </h2>
+            <div className="text-justify text-sm md:text-base leading-relaxed">
               1.1 Purpose of the Token The i100 Token (i100) serves as the core
               utility token within the i100 ecosystem, enabling users to access
               a wide range of services and features offered by i100 Copilot, the
@@ -80,24 +80,21 @@ export default function Whitepaper() {
               users can unlock premium services, access exclusive health
               insights, and engage with the ecosystem’s advanced AI features,
               ensuring a comprehensive, user-centric healthcare experience.
-            </p>
+            </div>
           </div>
-          <div
-            id="vision-mission"
-            className=" ml-10  text-muted  "
-          >
+          <div id="vision-mission" className="  text-muted  ">
             <h2 className="text-2xl font-bold pt-20">Vision</h2>
-            <p className="text-justify">
+            <div className="text-justify">
               Our vision is to empower individuals to take control of their
               health through personalized, AI-driven insights and services. We
               aim to revolutionize healthcare by leveraging cutting-edge AI
               technology to provide real-time, data-driven guidance that
               improves health outcomes, minimizes risks, and enhances quality of
               life.
-            </p>
+            </div>
 
             <h2 className="text-xl mt-5 font-bold">Mission</h2>
-            <p className="text-justify">
+            <div className="text-justify">
               The mission of i100 Copilot is to become the most trusted,
               accessible, and intelligent digital health assistant. By
               integrating AI with personalized healthcare data, wearable
@@ -107,16 +104,13 @@ export default function Whitepaper() {
               the i100 Token, we aim to create a robust ecosystem that
               incentivizes healthy living while providing users with a seamless,
               secure, and rewarding healthcare experience.
-            </p>
+            </div>
           </div>
-          <div
-            id="overview"
-            className=" ml-10  text-muted  "
-          >
+          <div id="overview" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               Overview of the Project
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               i100 Copilot is a revolutionary AI-powered personal health
               assistant that combines cutting-edge artificial intelligence with
               advanced healthcare insights to offer a seamless, personalized
@@ -130,14 +124,11 @@ export default function Whitepaper() {
               i100 Token will serve as the foundation of this ecosystem,
               enabling secure, efficient transactions and incentivizing healthy
               living.
-            </p>
+            </div>
           </div>
-          <div
-            id="market-opportunity"
-            className=" ml-10  text-muted  "
-          >
+          <div id="market-opportunity" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold"> Market Opportunity</h2>
-            <p className="text-justify">
+            <div className="text-justify">
               The global healthcare industry is undergoing a transformation with
               the rise of AI technologies and the growing demand for
               personalized, preventative, and accessible healthcare solutions.
@@ -151,14 +142,11 @@ export default function Whitepaper() {
               premium features but also foster a new economy within the health
               and wellness sector, offering significant growth potential in a
               fast-evolving market.
-            </p>
+            </div>
           </div>
-          <div
-            id="problem-statement"
-            className=" ml-10  text-muted  "
-          >
+          <div id="problem-statement" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold"> Problem Statement</h2>
-            <p className="text-justify">
+            <div className="text-justify">
               Traditional healthcare systems are often reactive rather than
               proactive, with limited personalization and accessibility.
               Patients frequently face difficulties in managing their health
@@ -171,14 +159,11 @@ export default function Whitepaper() {
               AI-driven insights and real-time health tracking, empowering
               individuals to manage their health more efficiently and make
               informed decisions that improve their quality of life.
-            </p>
+            </div>
           </div>
-          <div
-            id="concept"
-            className=" ml-10  text-muted  "
-          >
+          <div id="concept" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold"> Project Concept</h2>
-            <p className="text-justify">
+            <div className="text-justify">
               i100 Copilot is an innovative AI-driven platform designed to serve
               as a personalized health assistant for users, offering them
               seamless management of their healthcare needs. By integrating
@@ -192,17 +177,14 @@ export default function Whitepaper() {
               a fundamental component of this ecosystem, allowing users to
               unlock premium services and features that are essential to
               maintaining a healthy lifestyle.
-            </p>
+            </div>
           </div>
-          <div
-            id="key-features"
-            className=" ml-10  text-muted  "
-          >
+          <div id="key-features" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               {" "}
               Key Features of the Token
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               <div className="mt-4 font-semibold">
                 Access to Premium Services:
               </div>
@@ -236,16 +218,13 @@ export default function Whitepaper() {
               interactions, ensuring safe medication usage, as well as real-time
               health monitoring to track their vital parameters via integrated
               devices.
-            </p>
+            </div>
           </div>
-          <div
-            id="competitive-advantages"
-            className=" ml-10  text-muted  "
-          >
+          <div id="competitive-advantages" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               Competitive Advantages{" "}
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               <div className="mt-4 font-semibold">
                 AI-Powered Personalization:
               </div>
@@ -290,14 +269,11 @@ export default function Whitepaper() {
               transactions via the i100 Token, i100 Copilot presents a unique
               and powerful solution that stands out in the growing digital
               health market.
-            </p>
+            </div>
           </div>
-          <div
-            id="utility"
-            className=" ml-10  text-muted  "
-          >
+          <div id="utility" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold"> Token Utility </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               The i100 Token serves as the primary utility token within the i100
               Copilot ecosystem, enabling users to access a variety of services
               and features. The token is designed to facilitate seamless
@@ -332,29 +308,23 @@ export default function Whitepaper() {
               i100 Token will also be used to pay transaction fees within the
               ecosystem, facilitating smooth and efficient operations within the
               platform.
-            </p>
+            </div>
           </div>
-          <div
-            id="supply-distribution"
-            className=" ml-10  text-muted  "
-          >
+          <div id="supply-distribution" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               Total Supply and Distribution
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               The total supply of i100 Tokens is capped at 1,000,000,000 tokens,
               ensuring scarcity and long-term value retention. The distribution
               of tokens is designed to incentivize ecosystem participation,
               reward early adopters, and ensure the long-term success and
               stability of the project.
-            </p>
+            </div>
           </div>
-          <div
-            id="allocation-details"
-            className=" ml-10  text-muted  "
-          >
+          <div id="allocation-details" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold"> Allocation Details </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               <div className="mt-4 font-semibold"> Team (20%): </div>A portion
               of the tokens will be allocated to the i100 Copilot development
               team, advisors, and core contributors. These tokens are essential
@@ -394,16 +364,13 @@ export default function Whitepaper() {
               </div>
               A small portion of tokens will be reserved for covering legal and
               regulatory compliance costs.
-            </p>
+            </div>
           </div>
-          <div
-            id="release-schedule"
-            className=" ml-10  text-muted  "
-          >
+          <div id="release-schedule" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               Token Release Schedule (Vesting and Lockup Periods)
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               To ensure the long-term stability of the i100 ecosystem, the
               release of tokens will be subject to a carefully structured
               vesting and lockup period:
@@ -437,14 +404,11 @@ export default function Whitepaper() {
               ensures a balanced and sustainable distribution of tokens,
               supports the growth of the i100 Copilot ecosystem, and fosters
               confidence among investors and users.
-            </p>
+            </div>
           </div>
-          <div
-            id="platform"
-            className=" ml-10  text-muted  "
-          >
+          <div id="platform" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold"> Blockchain Platform </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               The i100 Copilot ecosystem is built on a robust and scalable
               blockchain platform to ensure transparency, security, and
               efficiency in all transactions and data handling. We have chosen
@@ -461,17 +425,14 @@ export default function Whitepaper() {
               blockchain technology ensures that all user data and transactions
               are securely encrypted and tamper-proof, fostering trust and
               transparency.
-            </p>
+            </div>
           </div>
-          <div
-            id="smart-contract"
-            className=" ml-10  text-muted  "
-          >
+          <div id="smart-contract" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               {" "}
               Smart Contract Details
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               Smart contracts are a critical component of the i100 Copilot
               ecosystem, enabling automation, secure transactions, and access to
               services. The smart contracts deployed on the Ethereum network are
@@ -505,16 +466,13 @@ export default function Whitepaper() {
               automated mechanisms for transaction fee calculation and token
               burning to enhance token value and ensure long-term
               sustainability.
-            </p>
+            </div>
           </div>
-          <div
-            id="security-audit"
-            className=" ml-10  text-muted  "
-          >
+          <div id="security-audit" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               Security and Audit Information
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               Ensuring the security and integrity of the i100 Copilot ecosystem
               is of paramount importance. We are committed to maintaining the
               highest standards of security across the entire platform,
@@ -565,19 +523,16 @@ export default function Whitepaper() {
               smart contract audits, encryption, decentralized identity
               management, and regulatory compliance ensures the integrity of
               both the token and the healthcare services provided.
-            </p>
+            </div>
           </div>
-          <div
-            id="use-cases"
-            className=" ml-10  text-muted  "
-          >
+          <div id="use-cases" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               Use Cases and Ecosystem{" "}
             </h2>
             <h2 className="text-2xl pt-20 font-bold">
               Real-World Applications of the Token
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               The i100 Token has a wide range of real-world applications within
               the i100 Copilot ecosystem, enhancing the overall user experience
               and supporting seamless interactions in the healthcare space. Some
@@ -625,17 +580,14 @@ export default function Whitepaper() {
               data securely with medical professionals, researchers, or other
               parties within the ecosystem, all while maintaining full control
               over their privacy.
-            </p>
+            </div>
           </div>
-          <div
-            id="ecosystem-participants"
-            className=" ml-10  text-muted  "
-          >
+          <div id="ecosystem-participants" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               {" "}
               Ecosystem Participants{" "}
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               The i100 Copilot ecosystem includes various participants who
               contribute to the platform's growth, development, and success.
               These participants play a crucial role in ensuring a seamless and
@@ -689,16 +641,13 @@ export default function Whitepaper() {
               These partnerships help to integrate the platform into existing
               healthcare systems and broaden the scope of services offered to
               users.
-            </p>
+            </div>
           </div>
-          <div
-            id="partnerships"
-            className=" ml-10  text-muted  "
-          >
+          <div id="partnerships" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               Partnerships and Collaborations
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               The success and expansion of i100 Copilot will depend heavily on
               strategic partnerships and collaborations with key players in the
               healthcare and technology sectors. Some of the potential
@@ -760,19 +709,13 @@ export default function Whitepaper() {
               proposition for users and token holders alike. Through strategic
               alliances, the i100 Copilot platform will continue to evolve,
               offering even more innovative health solutions in the future.
-            </p>
+            </div>
           </div>
-          <h2 className="text-2xl pt-20 text-muted ml-10 font-bold">
-            {" "}
-            Roadmap
-          </h2>
-          <div
-            id="short-term"
-            className="  ml-10 text-muted  "
-          >
+          <h2 className="text-2xl pt-20 text-muted font-bold"> Roadmap</h2>
+          <div id="short-term" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold"> Short-Term Milestones</h2>
 
-            <p className="text-justify">
+            <div className="text-justify">
               The i100 Copilot project is committed to a structured and
               well-paced development process, with clearly defined milestones to
               guide the platform's growth in the early stages. Our short-term
@@ -807,14 +750,11 @@ export default function Whitepaper() {
               ecosystem to include additional health data providers and research
               institutions. Launch marketing campaigns to raise awareness and
               attract more users to the platform.
-            </p>
+            </div>
           </div>
-          <div
-            id="long-term"
-            className=" ml-10  text-muted  "
-          >
+          <div id="long-term" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold"> Long-Term Vision</h2>
-            <p className="text-justify">
+            <div className="text-justify">
               The long-term vision for i100 Copilot is to become the leading
               AI-powered health assistant globally, providing personalized,
               data-driven healthcare solutions to individuals across various
@@ -881,19 +821,16 @@ export default function Whitepaper() {
               partnerships, and a focus on user-centric solutions, i100 Copilot
               will create a more accessible, efficient, and sustainable
               healthcare experience for everyone.
-            </p>
+            </div>
           </div>
-          <h2 className="text-2xl pt-20 text-muted ml-10 font-bold">
+          <h2 className="text-2xl pt-20 text-muted font-bold">
             {" "}
             Team and Advisors
           </h2>
 
-          <div
-            id="core-team"
-            className=" ml-10  text-muted  "
-          >
+          <div id="core-team" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold"> Core Team Members </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               The i100 Copilot project is driven by a team of passionate and
               experienced professionals, each bringing unique expertise from the
               healthcare, blockchain, artificial intelligence, and technology
@@ -953,17 +890,14 @@ export default function Whitepaper() {
               both the healthcare and blockchain industries. His role is to
               establish key collaborations with healthcare providers, wearable
               tech companies, insurance firms, and other stakeholders.
-            </p>
+            </div>
           </div>
-          <div
-            id="advisors"
-            className=" ml-10  text-muted  "
-          >
+          <div id="advisors" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               {" "}
               Advisors and Partners{" "}
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               <div className="mt-4 font-semibold"></div>
               To ensure the success of the i100 Copilot platform and to guide us
               through the complex intersection of healthcare, AI, and
@@ -1030,17 +964,14 @@ export default function Whitepaper() {
               innovation, and dedication, i100 Copilot will create a smarter,
               more personalized, and secure healthcare experience for users
               worldwide.
-            </p>
+            </div>
           </div>
-          <div
-            id="funding"
-            className=" ml-10  text-muted  "
-          >
+          <div id="funding" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               {" "}
               Funding and ICO Details{" "}
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               <div className="mt-4 font-semibold"></div>
               9.1 Pre-Sale and Public Sale Details The i100 Copilot project will
               raise capital through a structured Initial Coin Offering (ICO),
@@ -1075,14 +1006,11 @@ export default function Whitepaper() {
               will be conducted in a secure, transparent manner, with all funds
               raised used directly for the development and growth of the i100
               Copilot ecosystem.
-            </p>
+            </div>
           </div>
-          <div
-            id="fund-allocation"
-            className=" ml-10  text-muted  "
-          >
+          <div id="fund-allocation" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold"> Fund Allocation </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               <div className="mt-4 font-semibold"></div>
               The funds raised through the ICO will be allocated across various
               critical areas to ensure the development, marketing, and expansion
@@ -1133,17 +1061,14 @@ export default function Whitepaper() {
               Funds will also be allocated to cover operational costs, including
               salaries for core team members, infrastructure costs, and ongoing
               operational needs necessary to maintain and grow the project.
-            </p>
+            </div>
           </div>
-          <div
-            id="legal-compliance"
-            className=" ml-10  text-muted  "
-          >
+          <div id="legal-compliance" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               {" "}
               Legal and Regulatory Compliance
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               Ensuring legal and regulatory compliance is a top priority for
               i100 Copilot. The platform and its token will adhere to all
               relevant laws and regulations to protect users, investors, and the
@@ -1192,22 +1117,19 @@ export default function Whitepaper() {
               over the long term. The focus on compliance ensures that users can
               confidently engage with the platform, knowing that their data and
               investments are protected.
-            </p>
+            </div>
           </div>
 
-          <h2 className="text-2xl pt-20 text-muted ml-10 font-bold">
+          <h2 className="text-2xl pt-20 text-muted font-bold">
             {" "}
             Market Strategy
           </h2>
 
-          <div
-            id="marketing"
-            className=" ml-10  text-muted  "
-          >
+          <div id="marketing" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               Marketing and Growth Plans{" "}
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               The i100 Copilot project will adopt a multi-faceted marketing
               strategy to drive awareness, attract users, and ensure long-term
               growth. Our marketing efforts will leverage a combination of
@@ -1269,17 +1191,14 @@ export default function Whitepaper() {
               integrate the platform into their offerings. Corporate
               partnerships can help drive enterprise adoption and offer a unique
               value proposition to the broader healthcare ecosystem.
-            </p>
+            </div>
           </div>
-          <div
-            id="community"
-            className=" ml-10  text-muted  "
-          >
+          <div id="community" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">
               {" "}
               Community Building and Engagement{" "}
             </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               Building and maintaining a vibrant, loyal community is essential
               for the success of the i100 Copilot platform. We believe that the
               success of the platform depends on the active involvement and
@@ -1323,14 +1242,11 @@ export default function Whitepaper() {
               spread the word. These ambassadors will play an essential role in
               spreading awareness, educating new users, and participating in
               community activities.
-            </p>
+            </div>
           </div>
-          <div
-            id="listing"
-            className=" ml-10  text-muted  "
-          >
+          <div id="listing" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">Listing on Exchanges </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               To ensure liquidity and accessibility of i100 Tokens, we will
               pursue listing on major cryptocurrency exchanges. Getting listed
               on top-tier exchanges will increase the visibility of the i100
@@ -1379,14 +1295,11 @@ export default function Whitepaper() {
               grow the user base, increase token liquidity, and establish i100
               Copilot as a trusted player in the AI-driven health tech and
               blockchain space.
-            </p>
+            </div>
           </div>
-          <div
-            id="risk"
-            className=" ml-10  text-muted  "
-          >
+          <div id="risk" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold">Potential Risks </h2>
-            <p className="text-justify">
+            <div className="text-justify">
               While i100 Copilot aims to revolutionize healthcare through the
               integration of AI and blockchain technology, there are several
               potential risks associated with the project. It is essential to
@@ -1519,14 +1432,11 @@ export default function Whitepaper() {
               health tech space. Our commitment to risk management will help
               maintain the integrity of the project and create a strong
               foundation for long-term success.
-            </p>
+            </div>
           </div>
-          <div
-            id="Conclusion"
-            className=" ml-10  text-muted  "
-          >
+          <div id="Conclusion" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold"> Conclusion</h2>
-            <p className="text-justify">
+            <div className="text-justify">
               Summary of Key Points The i100 Copilot project is designed to
               revolutionize healthcare by combining the power of artificial
               intelligence with blockchain technology, creating a personalized,
@@ -1579,14 +1489,11 @@ export default function Whitepaper() {
               in i100 Copilot today, and join us on our mission to redefine
               personal health management for the future. Let’s build the future
               of healthcare together.
-            </p>
+            </div>
           </div>
-          <div
-            id="Appendices"
-            className=" ml-10  text-muted  "
-          >
+          <div id="Appendices" className="  text-muted  ">
             <h2 className="text-2xl pt-20 font-bold"> Appendices</h2>
-            <p className="text-justify">
+            <div className="text-justify">
               Glossary of Terms
               <div className="mt-4 font-semibold"></div>AI (Artificial
               Intelligence): The simulation of human intelligence processes by
@@ -1689,7 +1596,7 @@ export default function Whitepaper() {
               technologies. The information supports i100 Copilot’s mission to
               create an innovative, secure, and scalable health management
               platform for users worldwide.
-            </p>
+            </div>
           </div>
           <div className="mt-10">
             <Footer />

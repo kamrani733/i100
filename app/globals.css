@@ -23,12 +23,52 @@ body {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+}
+
+/* Custom breakpoint for 1150px */
 @media (min-width: 1150px) {
   .container {
-      max-width: 1150px;
+    max-width: 1150px;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 

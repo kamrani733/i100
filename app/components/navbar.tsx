@@ -1,71 +1,74 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
 
-export default function Navabr() {
+export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <header className="z-30 h-16 font-secondary fixed w-full  bg-black">
-      <nav className="container relative flex w-full items-center">
+    <header className="fixed top-0 left-0 z-50 w-full bg-black shadow-md">
+      <nav className="container mx-auto flex h-16 items-center px-4 md:px-8">
         {/* Logo */}
-        <a className="z-30 mr-4 flex h-16 items-center" href="/">
+        <a href="/" className="flex items-center">
           <Image alt="logo" src="/logo.svg" width={40} height={40} priority />
         </a>
 
-        {/* Navigation Menu */}
-        <ul className="absolute left-0 top-full z-20 flex w-full flex-col items-center overflow-hidden bg-black pt-4 md:relative md:w-auto md:flex-row md:bg-transparent md:pt-0">
-          <li className="w-full text-center border-b border-b-muted md:border-b-0 md:text-left">
-            <a
-              className="block w-full px-4 py-2 font-medium text-white transition-colors hover:bg-gray-800 hover:text-gray-300 md:px-3 md:py-4 md:hover:bg-transparent"
-              aria-label="AI"
-              href="/copilot"
-            >
-              Copilet
-            </a>
-          </li>
-
-          <li className="w-full text-center border-b border-b-muted md:border-b-0 md:text-left">
-            <a
-              className="block w-full px-4 py-2 font-medium text-white transition-colors hover:bg-gray-800 hover:text-gray-300 md:px-3 md:py-4 md:hover:bg-transparent"
-              aria-label="Docs"
-              href="/token"
-            >
-              Token
-            </a>
-          </li>
-          <li className="w-full text-center border-b border-b-muted md:border-b-0 md:text-left">
-            <a
-              className="block w-full px-4 py-2 font-medium text-white transition-colors hover:bg-gray-800 hover:text-gray-300 md:px-3 md:py-4 md:hover:bg-transparent"
-              aria-label="Blog"
-              href="/whitepaper "
-            >
-              Whitepaper 
-            </a>
-          </li>
-     
-          <li className="w-full text-center md:text-left">
-            <a
-              className="block w-full whitespace-nowrap px-4 py-2 font-medium text-white transition-colors hover:bg-gray-800 hover:text-gray-300 md:px-3 md:py-4 md:hover:bg-transparent"
-              aria-label="About Us"
-              href="/about-us"
-            >
-              About Us
-            </a>
-          </li>
+        {/* Desktop Menu */}
+        <ul className="hidden md:flex md:ml-auto space-x-6">
+          {["Copilot", "Token", "Whitepaper", "About Us"].map((item, index) => (
+            <li key={index}>
+              <a
+                href={`/${item.toLowerCase().replace(" ", "-")}`}
+                className="text-white font-medium hover:text-gray-300 transition-colors"
+              >
+                {item}
+              </a>
+            </li>
+          ))}
         </ul>
 
-        {/* Mobile Menu Toggle Button */}
+        {/* Mobile Menu Toggle */}
         <button
-          className="z-30 ml-auto flex h-8 w-8 items-center justify-center md:hidden"
-          aria-expanded="false"
+          className="ml-auto md:hidden"
+          onClick={toggleMenu}
+          aria-expanded={isOpen}
           aria-label="Toggle navigation"
         >
           <Image
             alt="menu"
             src="/assets/image/svg/menu.svg"
-            width={40}
-            height={40}
+            width={32}
+            height={32}
             priority
           />
         </button>
       </nav>
+
+      {/* Mobile Menu */}
+      <div
+        className={`absolute top-16 left-0 w-full bg-black transition-all duration-300 ${
+          isOpen ? "opacity-100 visible" : "opacity-0 invisible"
+        } md:hidden`}
+        aria-hidden={!isOpen}
+      >
+        <ul className="flex flex-col items-center space-y-4 py-4">
+          {["Copilot", "Token", "Whitepaper", "About Us"].map((item, index) => (
+            <li key={index}>
+              <a
+                href={`/${item.toLowerCase().replace(" ", "-")}`}
+                className="text-white font-medium hover:text-gray-300 transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                {item}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </header>
   );
 }
