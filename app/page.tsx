@@ -22,7 +22,7 @@ export default function Home() {
         <div className="relative flex w-full max-h-[500px] md:w-1/2">
           <Image
             alt="Copilot: AI Chat for Designer Bio"
-            src="/assets/image/AI-Genetic-Analysis.png"
+            src="/assets/image/04.png"
             width={522.5}
             height={281.66}
             priority
@@ -76,12 +76,12 @@ export default function Home() {
                 height="720"
               >
                 <source
-                  src="https://main-website-310.s3.us-west-2.amazonaws.com/assets/310-MP-Animation-480.mp4"
+                  src="/assets/image/video.mp4"
                   type="video/mp4"
                   media="(max-width: 640px)"
                 />
                 <source
-                  src="https://main-website-310.s3.us-west-2.amazonaws.com/assets/310-MP-Animation-720.mp4"
+                  src="/assets/image/video.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -91,7 +91,7 @@ export default function Home() {
           <div className="order-2 md:order-none">
             <Image
               alt="Copilot: AI Chat for Designer Bio"
-              src="/assets/image/Copilot-Cover.png"
+              src="/assets/image/09.png"
               width={522.5}
               height={281.66}
               priority
@@ -136,7 +136,7 @@ export default function Home() {
           <div className="order-2 md:order-none">
             <Image
               alt="Copilot: AI Chat for Designer Bio"
-              src="/assets/image/Copilot-Cover.png"
+              src="/assets/image/05.png"
               width={522.5}
               height={281.66}
               priority
